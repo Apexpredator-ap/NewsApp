@@ -1,4 +1,3 @@
-
 import '../sources_response/Source.dart';
 
 class News {

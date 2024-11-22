@@ -35,11 +35,12 @@ class _HomeScreenState extends State<HomeScreen> {
                   ImageUtils.getImagePathByName(imageName: 'pattern.png')))),
       child: Scaffold(
           appBar: AppBar(
-            title: const Text('News App'), // Static title replacing AppLocalizations
+            title: const Text(
+                'News App'), // Static title replacing AppLocalizations
             actions: [
               IconButton(
-                onPressed: () =>
-                    showSearch(context: context, delegate: NewsSearchDelegate()),
+                onPressed: () => showSearch(
+                    context: context, delegate: NewsSearchDelegate()),
                 icon: const Icon(
                   Icons.search,
                   size: 25,

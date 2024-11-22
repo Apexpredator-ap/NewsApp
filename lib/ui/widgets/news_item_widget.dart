@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 
 import '../../api/model/news_response/news.dart';
 import '../home/articals_details/articals_details.dart';
+
 class NewsItemWidget extends StatelessWidget {
   News news;
 
